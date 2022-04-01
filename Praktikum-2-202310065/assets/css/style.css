@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid #ccc;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+label{
+    float: left;
+    width: 15%;
+    padding: 10px 0px 5px 0px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+}
+
+textarea{
+    resize: none;
+}
+
+.btn-group{
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 6px 12px;
+}
+
+.btn-blue{
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-green{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
