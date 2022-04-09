@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+}
+h1{
+    color: rgb(57, 222, 57);
+}
+
+.container{
+    margin: auto;
+    width: 90%; 
+}
+
+.card{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+    margin-right: 36px;
+    width: 30%;
+    text-align: justify;
+    display: inline-block;
+}
+
+.card-group{
+    margin: 0 auto;
+    padding: 10px;
+    padding: auto;
+    width: 100%;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h4{
+    color: rgb(86, 86, 220);
+}
+.text-center{
+    margin-top: 50px;
+    text-align: center;
+}
