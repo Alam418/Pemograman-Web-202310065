@@ -1,0 +1,105 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+.card h2{
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card{
+    border: 0px solid;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 3px 0 rgba(0,0,0,0.2);
+}
+
+.card-iframe{
+    border: 0px solid;
+    margin-top: 20px;
+    float: left;
+    width: 50%;
+    height: 350px;
+    padding: 10px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.2);
+}
+
+.card-body {
+    display: flex;
+}
+
+.card-img{
+    width: 50%;
+    float: left;
+    margin-right: 50px;
+}
+
+.card-info{
+    border: 0px solid;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 50%;
+    height: 170px;
+    padding: 10px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.2);
+}
+
+.card-img p{
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 0;
+    padding: 7px;
+    font-size: 20px;
+    color: white;
+    background-color: purple;
+}
+
+.card-iframe h2{
+    text-align: center;
+}
+
+.purple-text{
+    color: purple;
+}
+
+.gray-text{
+    color: gray;
+}
+
+iframe{
+    border: none;
+}
+
+.card-text li{
+    
+    list-style-type: upper-alpha;
+}
+
+.bottom-content{
+    display: flex;
+}
+
+.table{
+    table-layout:fixed;
+    width:100%;
+}
+
+.table, th, td{
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
